@@ -106,11 +106,18 @@
 // massive.reverse();
 // console.log(massive);
 
-// 2-masala
+// // 2-masala
+// let str = "salom";
+// let res ="";
+// for (let i = str.length -1; i >= 0; i--) {
+//     res += str[i]
+// }
+// console.log(res);
 
-// let text = ["I" , "do not know nothing", "about life", "why"];
-// text.reverse();
-// console.log(text);
+// Split orqali
+
+// let str1 = "Salom"
+// console.log(str1.split(' '));
 
 // 3-masala
 
@@ -179,7 +186,7 @@
 // massive.shift();
 // console.log(massive);
 
-// Massive Unshift Pop
+// Unshift Pop
 
 // 1-masala
 
@@ -196,12 +203,54 @@
 
 // 3-masala
 
-let massive = [124,2459,1294,1384,19383,12,1,23,4,];
-massive.shift();
-massive.unshift("Salom");
-massive.pop();
-massive.push("Xayr")
-console.log(massive);
+// let massive = [124,2459,1294,1384,19383,12,1,23,4,];
+// massive.shift();
+// massive.unshift("Salom");
+// massive.pop();
+// massive.push("Xayr")
+// console.log(massive);
+
+// Qiyinroq masalalar
+
+// 1-masala
+// let arr = [6,7,8,9,10];
+// if (arr.length % 2 == 1) {
+//     arr.splice(Math.trunc(arr.length / 2), 1)
+//  console.log(arr);
+// } else {
+//     let first = arr.slice(0, arr.length / 2);
+//     let second = arr.slice(arr.length / 2);
+//     console.log(first);
+//     console.log(second); 
+// }
+
+// 2-masala
+
+// let arr1 = [1,3,2];
+// let arr2 = [5,6,7];
+// let merged = arr1.concat(arr2);
+// let res =[];
+// for (let i = )
+
+// 3-masala
+
+let arr = [1,2,3,4];
+let element = 4;
+
+let index = arr.indexOf(element)
+if (index > - 1) {
+    arr.splice(index, 1)
+} else {
+    arr.push(element);
+}
+console.log(arr);
+
+
+
+
+
+
+
 
 
 
