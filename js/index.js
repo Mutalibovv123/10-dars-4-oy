@@ -229,21 +229,71 @@
 // let arr1 = [1,3,2];
 // let arr2 = [5,6,7];
 // let merged = arr1.concat(arr2);
-// let res =[];
-// for (let i = )
+// let numbers = merged.filter((element) = typeof element == "number");
+// console.log(numbers);
 
 // 3-masala
 
-let arr = [1,2,3,4];
-let element = 4;
+// let arr = [1,2,3,4];
+// let element = 4;
 
-let index = arr.indexOf(element)
-if (index > - 1) {
-    arr.splice(index, 1)
-} else {
-    arr.push(element);
-}
-console.log(arr);
+// let index = arr.indexOf(element)
+// if (index > - 1) {
+//     arr.splice(index, 1)
+// } else {
+//     arr.push(element);
+// }
+// console.log(arr);
+
+// 4-masala
+
+// let massive = [3, 5, 7, 8, 4, 2, 4, 3,];
+// let newMassive = [];
+
+// let firstIndex = massive.indexOf(3); 
+// let lastIndex = massive.lastIndexOf(3); 
+
+// for (let i = firstIndex+1; i <= lastIndex-1; i++) {
+//   newMassive.push(massive[i]); 
+// }
+// console.log(newMassive);
+
+// 5-masala
+// let array = [1, "olma", 2, "nok", 3, "uzum", 4, "anor"];
+// let numbers = [];
+// let words = [];
+// for (let i = 0; i < array.length; i++) {
+//   if (typeof array[i] == 'number') {
+//     numbers.push(array[i]);
+//   } else if (typeof array[i] === 'string') {
+//     words.push(array[i]);
+//   }
+// }
+// function sortNumbers(array) {
+//     array.sort((a, b) => a - b);
+//     return arr;
+//   }
+// console.log(numbers);
+
+// 6-masala
+
+// let massiv = [1, 2, 3, 4, 5,6,7,8,9,0];
+// let matn = "";
+// for (let i = 0; i < massiv.length; i++) {
+//   massiv[i] *= 2;
+//   matn += massiv[i]; 
+//   if (i < massiv.length - 1){ 
+//     matn += ", "
+//   }
+// }
+// console.log(matn)
+
+
+
+
+
+
+
 
 
 
